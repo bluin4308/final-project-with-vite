@@ -1,0 +1,12 @@
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  row-gap: 80px;
+}
+
+.card-list .card {
+  flex-basis: 250px;
+  position: relative;
+}

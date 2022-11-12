@@ -1,0 +1,20 @@
+.not-found {
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20vh;
+  bottom: 0;
+  width: 200px;
+}
+
+.not-found .warning-number {
+  font-size: 2.2rem;
+  margin: 1rem auto;
+}
+
+.not-found .warning-text {
+  font-size: 1.5rem;
+  margin: 0 auto;
+}

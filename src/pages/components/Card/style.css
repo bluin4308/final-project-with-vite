@@ -1,0 +1,33 @@
+.card img {
+  width: 100%;
+}
+
+.card .title {
+  margin: 7px 0;
+  font-size: 1.1rem;
+}
+
+.card .title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card .sale-badge {
+  display: inline;
+  text-transform: capitalize;
+  color: white;
+  font-size: 1.2rem;
+  background-color: black;
+  padding: 7px;
+  position: absolute;
+  top: 0;
+}
+
+.card .sale-price {
+  color: crimson;
+  font-weight: 600;
+}
+
+.card .regular-price {
+  font-weight: 600;
+}

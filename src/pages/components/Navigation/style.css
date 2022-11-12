@@ -1,0 +1,43 @@
+.nav-flex-col {
+  width: 20%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.navlink-group {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.navlink {
+  text-decoration: none;
+  transition: 0.15s;
+  color: black;
+  font-weight: normal;
+  text-transform: capitalize;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.navlink:hover {
+  font-weight: bold;
+}
+
+.active {
+  font-weight: bold;
+}

@@ -1,0 +1,55 @@
+.topbar-flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icongroup-flex {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.page-title {
+  font-size: 1.4rem;
+}
+
+.icongroup-flex svg {
+  height: 24px;
+  width: 24px;
+}
+
+.icongroup-flex a {
+  text-decoration: none;
+  color: black;
+  transition: 0.15s;
+}
+
+.icongroup-flex .active {
+  border-bottom: 2px solid black;
+  margin-bottom: -2px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  transition: 0.2s;
+  visibility: hidden;
+  width: 100px;
+  background-color: slategray;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  top: 20px;
+  left: -30px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
