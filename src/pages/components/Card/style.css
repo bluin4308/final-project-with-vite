@@ -1,5 +1,6 @@
 .card img {
   width: 100%;
+  aspect-ratio: 4/5;
 }
 
 .card .title {
